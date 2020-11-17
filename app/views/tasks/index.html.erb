@@ -1,0 +1,6 @@
+<% tasks = @tasks %>
+<ol>
+<% tasks.each do |task| %>
+<li style="list-style: none"><input type="checkbox"><%= task.title %></li>
+<% end %>
+</ol>
